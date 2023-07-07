@@ -1,0 +1,28 @@
+2023-07-07 16:58:42,024 [main] INFO  SLF4JLogger - <=============================On Before Class======================================>
+2023-07-07 16:58:42,120 [main] INFO  c.j.f.c.r.e.ExtentHTMLReportObserver - Loading Extent Report configuration parameters from XML FileC:\Users\Animesh_Bhoj\Desktop\Hackathon\Collab\collab-ecommerce\cs-coreframework\src\test\resources\extent-config.xml
+2023-07-07 16:58:42,424 [main] INFO  SLF4JLogger - TestCase '{Validate that top 3 states with highest test positivity ratio have correct data mapped with API response}' is started...!!!
+2023-07-07 16:58:42,436 [main] INFO  c.j.f.ui.driver.ChromeLauncher - launching the 'chrome' browser
+2023-07-07 16:58:43,138 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=114 in cache (valid until 17:43:40 07/07/2023 IST)
+2023-07-07 16:58:43,140 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome114=114.0.5735.90 in cache (valid until 11:53:52 08/07/2023 IST)
+2023-07-07 16:58:43,140 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2023-07-07 16:58:43,148 [main] TRACE i.g.b.wdm.cache.CacheHandler - Checking if chromedriver exists in cache
+2023-07-07 16:58:43,181 [main] TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by chromedriver -- input list [C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe, C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe, C:\Users\Animesh_Bhoj\.cache\selenium\resolution.properties] -- output list [C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe, C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe] 
+2023-07-07 16:58:43,181 [main] TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by 114.0.5735.90 -- input list [C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe, C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe] -- output list [C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe] 
+2023-07-07 16:58:43,181 [main] TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by WIN -- input list [C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe] -- output list [C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe] 
+2023-07-07 16:58:43,182 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+2023-07-07 16:58:43,183 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-07-07 16:58:45,729 [main] INFO  c.j.f.ui.driver.DriverManager - Initialized browser:'chrome' sessionID:'5c65f566bce58be600ef25f45e5973f6'  threadID:'main'
+2023-07-07 16:58:47,156 [main] INFO  SLF4JLogger - TestCase '{Validate the Login Functionality}' is started...!!!
+2023-07-07 16:58:47,157 [main] INFO  c.j.f.ui.driver.ChromeLauncher - launching the 'chrome' browser
+2023-07-07 16:58:47,183 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=114 in cache (valid until 17:43:40 07/07/2023 IST)
+2023-07-07 16:58:47,185 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome114=114.0.5735.90 in cache (valid until 11:53:52 08/07/2023 IST)
+2023-07-07 16:58:47,185 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+2023-07-07 16:58:47,188 [main] TRACE i.g.b.wdm.cache.CacheHandler - Checking if chromedriver exists in cache
+2023-07-07 16:58:47,193 [main] TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by chromedriver -- input list [C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe, C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe, C:\Users\Animesh_Bhoj\.cache\selenium\resolution.properties] -- output list [C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe, C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe] 
+2023-07-07 16:58:47,194 [main] TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by 114.0.5735.90 -- input list [C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe, C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe] -- output list [C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe] 
+2023-07-07 16:58:47,194 [main] TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by WIN -- input list [C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe] -- output list [C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe] 
+2023-07-07 16:58:47,195 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 114.0.5735.90 found in cache
+2023-07-07 16:58:47,197 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Animesh_Bhoj\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-07-07 16:58:48,812 [main] INFO  c.j.f.ui.driver.DriverManager - Initialized browser:'chrome' sessionID:'1043939f875170beacfc1e384a0a105b'  threadID:'main'
+2023-07-07 16:58:53,675 [main] INFO  SLF4JLogger - Actual wait: 1574 milliseconds, Expected was 3000
+2023-07-07 16:58:54,192 [main] INFO  SLF4JLogger - Actual wait: 12 milliseconds, Expected was 5000
