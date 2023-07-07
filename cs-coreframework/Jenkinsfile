@@ -1,0 +1,32 @@
+ pipeline {
+        agent any
+         stages{
+            stage("Cleaning Stage"){
+                steps{
+                    bat "mvn clean"
+                }
+            }
+            stage("Testing Stage")
+            {
+                steps{
+                    bat "mvn test"
+                }
+            }
+            stage("Packaging Stage"){
+                steps{
+                    bat "mvn package"
+                }
+            }
+            stage("Consolidated Results"){
+                steps{
+                    junit '**/target/surefire-reports/TEST-*.xml'
+                    archive 'target/*.jar'
+                }
+            }
+            stage("Email Build Status"){
+                steps{
+                    mail bcc: '', body: 'Please find the report for E2E project.', cc: '', from: '', replyTo: '', subject: 'Report for E2E Project', to: 'animesh_bhoj@epam.com'
+                }
+            }
+        }
+    }
