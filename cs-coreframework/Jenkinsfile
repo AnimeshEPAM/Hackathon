@@ -25,7 +25,7 @@
             }
             stage("Email Build Status"){
                 steps{
-                    mail bcc: '', body: 'Please find the report for E2E project.', cc: '', from: '', replyTo: '', subject: 'Report for E2E Project', to: 'animesh_bhoj@epam.com'
+                    mail bcc: '', body: 'Please find the report for E2E project.', cc: 'kannan_mahamuni@epam.com', from: '', replyTo: '', subject: 'Report for E2E Project', to: 'animesh_bhoj@epam.com'
                 }
             }
         }
